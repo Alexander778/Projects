@@ -1,5 +1,0 @@
-/Users/kuzmenko_aleksandr/Projects/Сomparable/obj/x86/Debug/Сomparable.csproj.CoreCompileInputs.cache
-/Users/kuzmenko_aleksandr/Projects/Сomparable/bin/Debug/Сomparable.exe
-/Users/kuzmenko_aleksandr/Projects/Сomparable/bin/Debug/Сomparable.pdb
-/Users/kuzmenko_aleksandr/Projects/Сomparable/obj/x86/Debug/Сomparable.exe
-/Users/kuzmenko_aleksandr/Projects/Сomparable/obj/x86/Debug/Сomparable.pdb
