@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{0ECCEEE5-2C5F-4A75-B655-14386C785A33}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Desktop/IComparable.cs">
+    <Files>
+      <File FileName="../../Desktop/IComparable.cs" Line="20" Column="59" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
