@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сollection_foreach", "Сollection_foreach.csproj", "{F8DAEE04-0B50-4C3F-ADA1-691EF5E91A90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8DAEE04-0B50-4C3F-ADA1-691EF5E91A90}.Debug|x86.ActiveCfg = Debug|x86
+		{F8DAEE04-0B50-4C3F-ADA1-691EF5E91A90}.Debug|x86.Build.0 = Debug|x86
+		{F8DAEE04-0B50-4C3F-ADA1-691EF5E91A90}.Release|x86.ActiveCfg = Release|x86
+		{F8DAEE04-0B50-4C3F-ADA1-691EF5E91A90}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

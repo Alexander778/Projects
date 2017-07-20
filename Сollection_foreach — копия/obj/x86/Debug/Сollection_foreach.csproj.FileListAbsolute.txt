@@ -1,0 +1,5 @@
+/Users/kuzmenko_aleksandr/Projects/Сollection_foreach/bin/Debug/Сollection_foreach.exe
+/Users/kuzmenko_aleksandr/Projects/Сollection_foreach/bin/Debug/Сollection_foreach.pdb
+/Users/kuzmenko_aleksandr/Projects/Сollection_foreach/obj/x86/Debug/Сollection_foreach.csproj.CoreCompileInputs.cache
+/Users/kuzmenko_aleksandr/Projects/Сollection_foreach/obj/x86/Debug/Сollection_foreach.exe
+/Users/kuzmenko_aleksandr/Projects/Сollection_foreach/obj/x86/Debug/Сollection_foreach.pdb
