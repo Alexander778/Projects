@@ -1,0 +1,1 @@
+/Users/kuzmenko_aleksandr/Projects/Events/obj/x86/Debug/Events.csproj.CoreCompileInputs.cache
