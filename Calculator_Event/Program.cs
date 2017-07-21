@@ -4,7 +4,6 @@ namespace Calculator_Event
 {
     public class Calculator
     {
-
         public delegate void History();
 
         public event History OnHistory;
@@ -17,8 +16,6 @@ namespace Calculator_Event
             OnHistory();
 
         }
-
-
     }
 
     class Handler_I
@@ -28,6 +25,7 @@ namespace Calculator_Event
             Console.WriteLine("10+20=30");
         }
     }
+
     class MainClass
     {
         public static void Main(string[] args)
@@ -37,7 +35,9 @@ namespace Calculator_Event
             Suma.OnHistory += Handler1.Message;
 
 
-          
+            //вот оно
+            Suma.Sum();
+            Console.ReadKey();
           
 
         }
