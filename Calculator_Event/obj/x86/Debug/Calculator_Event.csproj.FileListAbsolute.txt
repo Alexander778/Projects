@@ -1,5 +1,0 @@
-/Users/kuzmenko_aleksandr/Projects/Calculator_Event/bin/Debug/Calculator_Event.exe
-/Users/kuzmenko_aleksandr/Projects/Calculator_Event/bin/Debug/Calculator_Event.pdb
-/Users/kuzmenko_aleksandr/Projects/Calculator_Event/obj/x86/Debug/Calculator_Event.csproj.CoreCompileInputs.cache
-/Users/kuzmenko_aleksandr/Projects/Calculator_Event/obj/x86/Debug/Calculator_Event.exe
-/Users/kuzmenko_aleksandr/Projects/Calculator_Event/obj/x86/Debug/Calculator_Event.pdb
