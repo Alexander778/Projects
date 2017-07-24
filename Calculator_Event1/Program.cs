@@ -33,7 +33,7 @@ namespace Calculator_Event
             {
                 OnHistory(x, y, "-");
             }
-            return x + y;
+            return x - y;
 
         }
         public double Umnog(double x, double y)
@@ -81,11 +81,11 @@ namespace Calculator_Event
 
 
 
-            //считаем на калькуляторе
-            myCalculator.Sum(15, 26);
-            myCalculator.Delen(80, 5);
-            myCalculator.Raz(78, 56);
-            myCalculator.Umnog(2, 2);
+            //Я убрал эти методы, так как они считают цифры непосредственно в вызове события.Можно так делать? 
+           // myCalculator.Sum(15, 26);
+            //myCalculator.Delen(80, 5);
+            //myCalculator.Raz(78, 56);
+            //myCalculator.Umnog(2, 2);
 
 
             Console.ReadKey();
