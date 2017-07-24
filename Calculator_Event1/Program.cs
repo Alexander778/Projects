@@ -27,28 +27,40 @@ namespace Calculator_Event
         }
 
         //1. остальные методы нужно переписать также как и Sum
-        public void Raz(ref double a, ref double b)
+        public double Raz (double x, double y)
         {
-            double result = a - b;
-            //OnHistory();
-            Console.WriteLine("{0}+{1}={2}", a, b, result);
+            if(OnHistory !=null)
+            {
+                OnHistory(x, y, "-");
+            }
+            return x + y;
 
         }
-        public void Umnog(ref double c, ref double d)
+        public double Umnog(double x, double y)
         {
-            double result = c * d;
-            //OnHistory();
-            Console.WriteLine("{0}+{1}={2}", c, d, result);
+            if(OnHistory!=null)
+            {
+                OnHistory(x, y, "*");
+            }
+            return x * y;
 
         }
-        public void Delen(ref double q, ref double w)
+        public double Delen(double x,double y)
         {
-            double result = q / w;
-            //OnHistory();
-            Console.WriteLine("{0}+{1}={2}", q, w, result);
+            if(OnHistory!=null)
+            {
+                OnHistory(x, y, "/");
+            }
+            return x / y;
 
         }
 
+        //метод-обработчик события
+        public void HistoryMessage(double x, double y, string operation,double result)
+		{
+
+            Console.WriteLine("{0}{1}{2}={3}", x,operation,y,result);
+		}
     }
 
     class MainClass
@@ -58,7 +70,15 @@ namespace Calculator_Event
             //создаем экземпляр калькулятора, достаточно одного для тестирования всех операций
             Calculator myCalculator = new Calculator();
 
+            //Изменения тут
+            myCalculator.HistoryMessage(15, 26, "+",myCalculator.Sum(15,26));
+            myCalculator.HistoryMessage(78, 56, "-", myCalculator.Raz(78, 56));
+            myCalculator.HistoryMessage(2, 2, "*", myCalculator.Umnog(2, 2));
+            myCalculator.HistoryMessage(80, 5, "/", myCalculator.Delen(80, 5));
+            //
+
             //3. тут назначаем обработчик OnHistory который будет выводить историю
+
 
 
             //считаем на калькуляторе
@@ -71,9 +91,10 @@ namespace Calculator_Event
             Console.ReadKey();
         }
 
-
-        //2. тут определяем метод-обработчик события можно прямо в этом же классе 
+		
+		
+    }
+        
 
 
     }
-}
