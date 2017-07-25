@@ -1,0 +1,5 @@
+/Users/kuzmenko_aleksandr/Projects/Reflection_3/bin/Debug/Reflection_3.exe
+/Users/kuzmenko_aleksandr/Projects/Reflection_3/bin/Debug/Reflection_3.pdb
+/Users/kuzmenko_aleksandr/Projects/Reflection_3/obj/x86/Debug/Reflection_3.csproj.CoreCompileInputs.cache
+/Users/kuzmenko_aleksandr/Projects/Reflection_3/obj/x86/Debug/Reflection_3.exe
+/Users/kuzmenko_aleksandr/Projects/Reflection_3/obj/x86/Debug/Reflection_3.pdb
