@@ -1,0 +1,5 @@
+/Users/kuzmenko_aleksandr/Projects/Debug_Release/bin/Debug/Debug_Release.exe
+/Users/kuzmenko_aleksandr/Projects/Debug_Release/bin/Debug/Debug_Release.pdb
+/Users/kuzmenko_aleksandr/Projects/Debug_Release/obj/x86/Debug/Debug_Release.csproj.CoreCompileInputs.cache
+/Users/kuzmenko_aleksandr/Projects/Debug_Release/obj/x86/Debug/Debug_Release.exe
+/Users/kuzmenko_aleksandr/Projects/Debug_Release/obj/x86/Debug/Debug_Release.pdb
