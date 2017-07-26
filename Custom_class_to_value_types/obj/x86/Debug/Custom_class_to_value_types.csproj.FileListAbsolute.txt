@@ -1,0 +1,5 @@
+/Users/kuzmenko_aleksandr/Projects/Custom_class_to_value_types/bin/Debug/Custom_class_to_value_types.exe
+/Users/kuzmenko_aleksandr/Projects/Custom_class_to_value_types/bin/Debug/Custom_class_to_value_types.pdb
+/Users/kuzmenko_aleksandr/Projects/Custom_class_to_value_types/obj/x86/Debug/Custom_class_to_value_types.csproj.CoreCompileInputs.cache
+/Users/kuzmenko_aleksandr/Projects/Custom_class_to_value_types/obj/x86/Debug/Custom_class_to_value_types.exe
+/Users/kuzmenko_aleksandr/Projects/Custom_class_to_value_types/obj/x86/Debug/Custom_class_to_value_types.pdb
