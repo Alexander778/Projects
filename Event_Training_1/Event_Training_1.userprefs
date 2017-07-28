@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{4A9D7A6E-6352-4267-B365-EE0B973F38C2}|Default">
+  <MonoDevelop.Ide.ItemProperties.Event__Training__1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Button.cs">
+    <Files>
+      <File FileName="Program.cs" Line="19" Column="74" />
+      <File FileName="Button.cs" Line="2" Column="1" />
+      <File FileName="ClickEventsArgs.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
