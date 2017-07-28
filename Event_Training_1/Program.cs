@@ -1,11 +1,8 @@
 ﻿using System;
-using namespace Event_Training_1;
+using Event_Training_1;
 {
-
-
-
     public class MainClass
-    {
+    {   
         public static void Main(string[] args)
         {
             var myButton = new Button();
@@ -16,7 +13,7 @@ using namespace Event_Training_1;
             Console.ReadKey();
         }
 
-        private static void _OnClickButton(object sender, ClickEventsArgs)
+        private static void _OnClickButton(object sender, ClickEventsArgs e)
         {
             Console.WriteLine($"{e.NameOfButton}");
 
