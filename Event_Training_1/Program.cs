@@ -1,12 +1,12 @@
 ﻿using System;
 using Event_Training_1;
-{
+
     public class MainClass
     {   
         public static void Main(string[] args)
         {
-            var myButton = new Button();
-            myButton.OnClick += _OnClickButton();
+        var myButton = new Button();
+        myButton.OnClick += _OnClickButton();
 
 
             myButton.Click("Yes!");
@@ -20,4 +20,4 @@ using Event_Training_1;
 
         }
     }
-}
+

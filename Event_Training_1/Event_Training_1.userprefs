@@ -1,9 +1,6 @@
 ﻿<Properties StartupConfiguration="{4A9D7A6E-6352-4267-B365-EE0B973F38C2}|Default">
   <MonoDevelop.Ide.ItemProperties.Event__Training__1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
-    <Files>
-      <File FileName="Program.cs" Line="5" Column="9" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ClassPad">
         <State name="__root__">
