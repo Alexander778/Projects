@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\bin\Debug\Cтатические и простые методы - разница.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\bin\Debug\Cтатические и простые методы - разница.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\bin\Debug\Cтатические и простые методы - разница.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\obj\Debug\Cтатические и простые методы - разница.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\obj\Debug\Cтатические и простые методы - разница.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Cтатические и простые методы - разница\Cтатические и простые методы - разница\obj\Debug\Cтатические и простые методы - разница.pdb
