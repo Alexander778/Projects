@@ -1,1 +1,0 @@
-/Users/kuzmenko_aleksandr/Projects/Events_Training_1_1/obj/x86/Debug/Events_Training_1_1.csproj.CoreCompileInputs.cache
