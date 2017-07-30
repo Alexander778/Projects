@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\bin\Debug\Конструкторы_Пример.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\bin\Debug\Конструкторы_Пример.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\bin\Debug\Конструкторы_Пример.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\obj\Debug\Конструкторы_Пример.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\obj\Debug\Конструкторы_Пример.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Конструкторы_Пример\Конструкторы_Пример\obj\Debug\Конструкторы_Пример.pdb
