@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\bin\Debug\Activator_3_Case.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\bin\Debug\Activator_3_Case.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\bin\Debug\Activator_3_Case.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\obj\Debug\Activator_3_Case.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\obj\Debug\Activator_3_Case.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Activator_3_Case\Activator_3_Case\obj\Debug\Activator_3_Case.pdb
