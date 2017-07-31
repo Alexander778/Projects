@@ -1,0 +1,6 @@
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/bin/Release/Абстрактный класс_Пример.exe.config
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/bin/Release/Абстрактный класс_Пример.exe
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/bin/Release/Абстрактный класс_Пример.pdb
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/obj/Release/Абстрактный класс_Пример.csproj.CoreCompileInputs.cache
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/obj/Release/Абстрактный класс_Пример.exe
+/Users/kuzmenko_aleksandr/Project_Alex/Абстрактный класс_Пример/Абстрактный класс_Пример/obj/Release/Абстрактный класс_Пример.pdb
