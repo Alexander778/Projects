@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\bin\Debug\Задачка по массиву.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\bin\Debug\Задачка по массиву.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\bin\Debug\Задачка по массиву.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\obj\Debug\Задачка по массиву.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\obj\Debug\Задачка по массиву.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Задачка по массиву\Задачка по массиву\obj\Debug\Задачка по массиву.pdb
