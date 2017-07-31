@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\bin\Debug\Наследование.Конструктор базового класса.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\bin\Debug\Наследование.Конструктор базового класса.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\bin\Debug\Наследование.Конструктор базового класса.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\obj\Debug\Наследование.Конструктор базового класса.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\obj\Debug\Наследование.Конструктор базового класса.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Наследование.Конструктор базового класса\Наследование.Конструктор базового класса\obj\Debug\Наследование.Конструктор базового класса.pdb

@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\bin\Debug\Телевизор_get_set.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\bin\Debug\Телевизор_get_set.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\bin\Debug\Телевизор_get_set.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\obj\Debug\Телевизор_get_set.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\obj\Debug\Телевизор_get_set.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Телевизор_get_set\Телевизор_get_set\obj\Debug\Телевизор_get_set.pdb
