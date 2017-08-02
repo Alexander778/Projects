@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Universal_Constructor.cs" />
+    <Compile Include="UnivConts.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

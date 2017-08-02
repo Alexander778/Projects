@@ -11,8 +11,9 @@ namespace Activator_Case3
     {
         static void Main(string[] args)
         {
-            Class1 cl1 = new Class1();
-            Universal_Constructor.Example(cl1);
+            Type p = typeof(UInt32);
+            UnivConts.CreateInstanceOfClass(p);
+            Console.WriteLine(p);
             
             
             Console.ReadKey();
