@@ -6,11 +6,9 @@ namespace Reflection1
     {
         static void Main(string[] args)
         {
-
-            UnivConts.CreateInstanceOfClass(typeof(UInt64));
-            
-           
-
+            UnivConts.CreateInstanceOfClass(typeof(Example));
+            //object obj;
+            //obj = Example.Print(6);
             Console.ReadKey();
         }
     }

@@ -13,10 +13,16 @@ namespace Activator_Case3
         
        public static object CreateInstanceOfClass(Type t)
         {
-
-            object instance = Activator.CreateInstance(t);
-            instance = Example.Print(6);
-            return instance;
+            try
+            {
+                object instance = Activator.CreateInstance(t);
+                return instance;
+            }
+            catch (MissingMethodException)
+            {
+                return null;
+            }
+            
             
             
         }
