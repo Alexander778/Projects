@@ -13,9 +13,10 @@ namespace Activator_Case3
         
        public static object CreateInstanceOfClass(Type t)
         {
+
             object instance = Activator.CreateInstance(t);
-            Console.WriteLine(instance);
-            return t;
+            instance = Example.Print(6);
+            return instance;
             
             
         }
