@@ -46,6 +46,7 @@
     <Compile Include="Example.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleExample.cs" />
     <Compile Include="UnivConts.cs" />
   </ItemGroup>
   <ItemGroup>

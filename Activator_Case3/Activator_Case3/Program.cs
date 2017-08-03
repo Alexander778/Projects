@@ -6,9 +6,9 @@ namespace Reflection1
     {
         static void Main(string[] args)
         {
-            UnivConts.CreateInstanceOfClass(typeof(Example));
-            //object obj;
-            //obj = Example.Print(6);
+            //UnivConts.CreateInstanceOfClass(typeof(Example));
+            object o1 = UnivConts.CreateInstanceOfClass(typeof(SimpleExample));
+            o1.Show(7);
             Console.ReadKey();
         }
     }
