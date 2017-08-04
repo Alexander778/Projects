@@ -15,18 +15,13 @@ namespace Activator_Case3
         {
             try
             {
-                object instance = Activator.CreateInstance(t);
+                object instance = Activator.CreateInstance(t,true);
                 return instance;
             }
             catch (MissingMethodException)
             {
-              
-                return null;
-                
+                return null;   
             }
-            
-            
-            
         }
     }
 }
