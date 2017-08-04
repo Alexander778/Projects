@@ -14,7 +14,7 @@ namespace Reflection1
             //
             object o2 = UnivConts.CreateInstanceOfClass(typeof(PrivateClass));
             int result1 = ((PrivateClass)o2).ShowResult(4, 6);
-            Console.WriteLine(result1);
+            
             Console.ReadKey();
         }
     }

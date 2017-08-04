@@ -7,14 +7,13 @@ using Activator_Case3;
 
 namespace Activator_Case3
 {
-    class PrivateClass
+    public class PrivateClass
     {
         public int A { get; set; }
         public int B { get; set; }
-        private PrivateClass(int a,int b)
+        private PrivateClass()
             {
-            this.A = a;
-            this.B = b;
+            
             }
         public int ShowResult(int a, int b)
         {
