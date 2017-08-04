@@ -8,7 +8,8 @@ namespace Reflection1
         {
             //UnivConts.CreateInstanceOfClass(typeof(Example));
             object o1 = UnivConts.CreateInstanceOfClass(typeof(SimpleExample));
-            o1.Show(7);
+            var result = ((SimpleExample)o1).Show(10);
+            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
