@@ -1,5 +1,0 @@
-c:\users\alexander\documents\visual studio 2015\Projects\Task_1_Exception\Task_1_Exception\bin\Debug\Task_1_Exception.exe.config
-c:\users\alexander\documents\visual studio 2015\Projects\Task_1_Exception\Task_1_Exception\bin\Debug\Task_1_Exception.exe
-c:\users\alexander\documents\visual studio 2015\Projects\Task_1_Exception\Task_1_Exception\bin\Debug\Task_1_Exception.pdb
-c:\users\alexander\documents\visual studio 2015\Projects\Task_1_Exception\Task_1_Exception\obj\Debug\Task_1_Exception.exe
-c:\users\alexander\documents\visual studio 2015\Projects\Task_1_Exception\Task_1_Exception\obj\Debug\Task_1_Exception.pdb
