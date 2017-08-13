@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\bin\Debug\Week3_Task_3.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\bin\Debug\Week3_Task_3.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\bin\Debug\Week3_Task_3.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\obj\Debug\Week3_Task_3.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\obj\Debug\Week3_Task_3.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task_3\Week3_Task_3\obj\Debug\Week3_Task_3.pdb
