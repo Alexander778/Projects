@@ -11,33 +11,16 @@ namespace Week3_Task_3
     {
         static void ShowInfo(object arg)
         {
-            int counter = 0;
-            for (int i = 1; i <= 20; i++)
-            {
-                Console.WriteLine("Цифра {0}, id потока {1}", i, Thread.CurrentThread.ManagedThreadId);
-                //
-                int id = Thread.CurrentThread.ManagedThreadId;
-                List<int> IDs = new List<int>();
-                IDs.Add(id);
-                int count = IDs.Count;
-                //
-                Thread.Sleep(10);
-                counter = count;
-            }
-
-            Console.WriteLine("Статистика:");
-            Console.WriteLine("Поток, который используется: {0}",Thread.CurrentThread.ManagedThreadId);
-            Console.WriteLine("Количество используемых потоков:"+counter);
-            
+                Console.WriteLine("ID потока {0}",Thread.CurrentThread.ManagedThreadId);
         }
         static void Main(string[] args)
         {
+            for (int i = 0; i <= 20; i++)
+            {
+                ThreadPool.QueueUserWorkItem(ShowInfo);
+                Thread.Sleep(10);
+            }
             
-            ThreadPool.QueueUserWorkItem(ShowInfo);
-            Thread.Sleep(3000);
-            Console.WriteLine();
-            
-
             Console.ReadKey();
 
         }
