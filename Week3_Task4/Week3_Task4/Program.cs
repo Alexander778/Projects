@@ -12,20 +12,32 @@ namespace Week3_Task4
         static void GetList(object arg)
         {
 
-                Console.WriteLine("Hello!");
+            Console.WriteLine("ID= {0}",Thread.CurrentThread.ManagedThreadId);
             
         }
         static void Main(string[] args)
         {
 
-            int Workers = 0;
-            int AsyncIO = 0;
-            ThreadPool.GetMaxThreads(out Workers,out AsyncIO);
-            ThreadPool.GetMinThreads(out Workers, out AsyncIO);
-            ThreadPool.SetMaxThreads(100, 100);
-            ThreadPool.SetMinThreads(20, 20);
-            ThreadPool.QueueUserWorkItem(GetList);
+            int a, b;
+            ThreadPool.GetMaxThreads(out a, out b);
+            Console.WriteLine("Beniging: {0},{1}",a,b);
+            Console.WriteLine();
             
+            
+            ThreadPool.SetMaxThreads(20,10);//before
+            ThreadPool.SetMinThreads(8, 4);//before
+            for (int i = 0; i < 10; i++)
+            {
+                ThreadPool.QueueUserWorkItem(GetList);
+            }
+            Console.WriteLine("_______________after");
+            ThreadPool.SetMaxThreads(10, 5); //after
+            ThreadPool.SetMinThreads(4,2);//after
+            for (int i = 0; i < 10; i++)
+            {
+                ThreadPool.QueueUserWorkItem(GetList);
+            }
+
             Console.ReadKey();
 
              
