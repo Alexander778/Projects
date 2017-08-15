@@ -11,10 +11,15 @@ namespace Week3_Task4
     {
         static void GetList(object arg)
         {
-
-            Console.WriteLine("ID= {0}",Thread.CurrentThread.ManagedThreadId);
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("ID= {0}", Thread.CurrentThread.ManagedThreadId);
+                Thread.Sleep(50);
+            }
             
         }
+
+
         static void Main(string[] args)
         {
 
@@ -29,13 +34,16 @@ namespace Week3_Task4
             for (int i = 0; i < 10; i++)
             {
                 ThreadPool.QueueUserWorkItem(GetList);
+                Thread.Sleep(1000);
             }
+
             Console.WriteLine("_______________after");
             ThreadPool.SetMaxThreads(10, 5); //after
             ThreadPool.SetMinThreads(4,2);//after
             for (int i = 0; i < 10; i++)
             {
                 ThreadPool.QueueUserWorkItem(GetList);
+                Thread.Sleep(1000);
             }
 
             Console.ReadKey();
