@@ -11,41 +11,53 @@ namespace Week3_Task4
     {
         static void GetList(object arg)
         {
-            for (int i = 0; i < 2; i++)
-            {
                 Console.WriteLine("ID= {0}", Thread.CurrentThread.ManagedThreadId);
-                Thread.Sleep(50);
-            }
-            
         }
 
 
         static void Main(string[] args)
         {
-
-            int a, b;
+            //
+            int a, b, c, d;
             ThreadPool.GetMaxThreads(out a, out b);
-            Console.WriteLine("Beniging: {0},{1}",a,b);
+            ThreadPool.GetMinThreads(out c, out d);
+            Console.WriteLine("Beniging MAX: {0},{1}",a,b);
+            Console.WriteLine("Beniging MIN: {0},{1}", c, d);
             Console.WriteLine();
-            
-            
-            ThreadPool.SetMaxThreads(20,10);//before
-            ThreadPool.SetMinThreads(8, 4);//before
+            //
+
+            //
             for (int i = 0; i < 10; i++)
             {
                 ThreadPool.QueueUserWorkItem(GetList);
-                Thread.Sleep(1000);
             }
+            ThreadPool.SetMaxThreads(30,20);//before
+            ThreadPool.SetMinThreads(15, 10);//before
+            ThreadPool.GetMaxThreads(out a, out b);
+            ThreadPool.GetMinThreads(out c, out d);
+            Console.WriteLine("First change MAX: {0},{1}",a,b);
+            Console.WriteLine("First change MIN: {0},{1}", c, d);
+            
+            //
 
-            Console.WriteLine("_______________after");
-            ThreadPool.SetMaxThreads(10, 5); //after
-            ThreadPool.SetMinThreads(4,2);//after
+            //
+            Console.WriteLine("_______________");
+            //
+
+            //
             for (int i = 0; i < 10; i++)
             {
                 ThreadPool.QueueUserWorkItem(GetList);
-                Thread.Sleep(1000);
             }
-
+            ThreadPool.SetMaxThreads(20, 10); //after
+            ThreadPool.SetMinThreads(10,5);//after
+            ThreadPool.GetMaxThreads(out a, out b);
+            ThreadPool.GetMinThreads(out c, out d);
+            Console.WriteLine("Second change MAX: {0},{1}", a, b);
+            Console.WriteLine("Second change MIN: {0},{1}", c, d);
+            
+            //
+            
             Console.ReadKey();
 
              
