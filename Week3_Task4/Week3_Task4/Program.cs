@@ -27,16 +27,18 @@ namespace Week3_Task4
             //
 
             //
-            for (int i = 0; i < 10; i++)
-            {
-                ThreadPool.QueueUserWorkItem(GetList);
-            }
+            
             ThreadPool.SetMaxThreads(30,20);//before
             ThreadPool.SetMinThreads(15, 10);//before
             ThreadPool.GetMaxThreads(out a, out b);
             ThreadPool.GetMinThreads(out c, out d);
             Console.WriteLine("First change MAX: {0},{1}",a,b);
             Console.WriteLine("First change MIN: {0},{1}", c, d);
+            for (int i = 0; i < 10; i++)
+            {
+                ThreadPool.QueueUserWorkItem(GetList);
+                Thread.Sleep(10);
+            }
             
             //
 
@@ -45,17 +47,17 @@ namespace Week3_Task4
             //
 
             //
-            for (int i = 0; i < 10; i++)
-            {
-                ThreadPool.QueueUserWorkItem(GetList);
-            }
             ThreadPool.SetMaxThreads(20, 10); //after
             ThreadPool.SetMinThreads(10,5);//after
             ThreadPool.GetMaxThreads(out a, out b);
             ThreadPool.GetMinThreads(out c, out d);
             Console.WriteLine("Second change MAX: {0},{1}", a, b);
             Console.WriteLine("Second change MIN: {0},{1}", c, d);
-            
+            for (int i = 0; i < 10; i++)
+            {
+                ThreadPool.QueueUserWorkItem(GetList);
+                Thread.Sleep(10);
+            }
             //
             
             Console.ReadKey();
