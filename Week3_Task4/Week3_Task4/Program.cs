@@ -9,13 +9,18 @@ namespace Week3_Task4
 {
     class Program
     {
-        static void GetList(object arg)
+        static void GetList1(object arg)
         {
-                Console.WriteLine("ID= {0}", Thread.CurrentThread.ManagedThreadId);
+                Console.WriteLine("1 ID= {0}", Thread.CurrentThread.ManagedThreadId);
         }
 
+		static void GetList2(object arg)
+		{
+			Console.WriteLine("2 ID= {0}", Thread.CurrentThread.ManagedThreadId);
+		}
 
-        static void Main(string[] args)
+
+		static void Main(string[] args)
         {
             //
             int a, b, c, d;
@@ -36,14 +41,14 @@ namespace Week3_Task4
             Console.WriteLine("First change MIN: {0},{1}", c, d);
             for (int i = 0; i < 10; i++)
             {
-                ThreadPool.QueueUserWorkItem(GetList);
-                Thread.Sleep(10);
+                ThreadPool.QueueUserWorkItem(GetList1);
             }
-            
-            //
 
-            //
-            Console.WriteLine("_______________");
+			//
+
+			//
+			Thread.Sleep(100);
+			Console.WriteLine("_______________");
             //
 
             //
@@ -55,8 +60,7 @@ namespace Week3_Task4
             Console.WriteLine("Second change MIN: {0},{1}", c, d);
             for (int i = 0; i < 10; i++)
             {
-                ThreadPool.QueueUserWorkItem(GetList);
-                Thread.Sleep(10);
+                ThreadPool.QueueUserWorkItem(GetList2);
             }
             //
             
