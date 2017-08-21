@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task10\Week3_Task10\bin\Debug\Week3_Task10.exe.config
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Week3_Task10\Week3_Task10\obj\Debug\Week3_Task10.csprojResolveAssemblyReference.cache
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Week3_Task10\Week3_Task10\bin\Debug\Week3_Task10.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Week3_Task10\Week3_Task10\bin\Debug\Week3_Task10.pdb
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Week3_Task10\Week3_Task10\obj\Debug\Week3_Task10.exe
+C:\Users\Alexander\Documents\Visual Studio 2015\Projects\Week3_Task10\Week3_Task10\obj\Debug\Week3_Task10.pdb
