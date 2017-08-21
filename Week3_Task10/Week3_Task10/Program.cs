@@ -10,20 +10,27 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Week3_Task10
 {
-    public interface IFormatter
-    {
-        SerializationBinder binder { get; set; }
-        StreamingContext context { get; set; }
-        ISurrogateSelector surrogateselector { get; set; }
-        object Deserialize(Stream serializationStream);
-        void Serialize(Stream serializationStream, object graph);
-    }
+    
     class Program
     {
 
         static void Main(string[] args)
         {
-            
+            Human h1 = new Human("Alex");
+            IFormatter formatter = new BinaryFormatter();
+            Stream stream = new FileStream(@"C:\Users\Alexander\Desktop\human.data", FileMode.Create, FileAccess.Write);
+
+            formatter.Serialize(stream, h1);
+            Console.WriteLine("Done");
+            stream.Close();
+            stream = new FileStream(@"C:\Users\Alexander\Desktop\human.data", FileMode.Open, FileAccess.Read);
+            Human newhuman = (Human)formatter.Deserialize(stream);
+            Console.WriteLine("Object is deserialized");
+            Console.WriteLine("Name: {0}",newhuman.Name);
+
+
+            Console.ReadKey();
+                      
         }
     }
 }
