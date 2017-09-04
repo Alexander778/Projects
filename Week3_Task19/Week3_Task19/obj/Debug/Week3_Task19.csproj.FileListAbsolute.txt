@@ -1,0 +1,6 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\bin\Debug\Week3_Task19.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\bin\Debug\Week3_Task19.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\bin\Debug\Week3_Task19.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\obj\Debug\Week3_Task19.csprojResolveAssemblyReference.cache
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\obj\Debug\Week3_Task19.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Week3_Task19\Week3_Task19\obj\Debug\Week3_Task19.pdb
