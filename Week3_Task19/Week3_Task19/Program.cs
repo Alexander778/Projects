@@ -12,22 +12,25 @@ namespace Week3_Task19
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter any button");
-            
-            for (int i = 0; i < 10; i++)
+            while (true)
             {
-                var a = Console.ReadKey();
-                if ( a!= null)
+                Console.WriteLine("Enter any button");
+                ConsoleKeyInfo x = Console.ReadKey();
+                if (x.KeyChar != 13)//код Enter
                 {
-                    Console.Beep();
+                    Console.WriteLine("");
+                    char y = x.KeyChar;
+                    int freq = y * 3;//для наглядности увеличиваю параметры частоты и длительности
+                    int dur = y * 10;
+                    Console.Beep(freq, dur);
                 }
                 else
                 {
-
+                    Environment.Exit(0);
                 }
+                
             }
-            Console.ReadKey();
-            
+        }
         }
     }
-}
+
