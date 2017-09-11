@@ -10,37 +10,91 @@ namespace Шифр_Цезаря
     {
         static void Main(string[] args)
         {
-            //int n = 1;
-            Console.WriteLine("Введите слово, которое нужно зашифровать"); 
-            string s = Console.ReadLine(); //читаем то что ввели
-            Console.WriteLine("Укажите ключ");
-            int key = Convert.ToInt32(Console.ReadLine());//читаем ключ переводя его в нужный формат, то есть строка что ввели перевелась в цифру
-          
 
-            string alf = "abcdefghijklmnopqrstuvwxyz"; //массив букс
-            string code = "";//будущая строка вывода шифротекста, которая сейчас пустая
-            int m = alf.Length; //это переменная которая указывает длинну массива(количество букв в алфавите)
-            for (int i = 0; i < s.Length; i++)//цикл который перебирает все буквы слова что было введенно s.Lenght - это количество букв в слове что ввели
+            Console.WriteLine("Что будем делать? Шифровать - c,дешифровать - d ");
+            string desicion = Console.ReadLine();
+            switch(desicion)
             {
-                for (int j = 0; j < alf.Length; j++)//перебираем алфавит 
-                {
-                    if (s[i] == alf[j])//если у нас буква с тогочто мы ввели совпала с буквой с алфавита
-                    {
-                        int temp = j  + key;//то мы добавляем смещение
+                case "c":
+                    Coding();
+                    break;
+                case "d":
+                    DeCoding();
+                    break;
 
-                        while (temp >= m)// тут мы исключаем тот случай когда ключ будет большим и алфавит сместиться с конца в начало
-                            temp =temp - m;//тут мы добиваем тот самый индекс когда ключ слишком большой, то есть больше чем количество букв в алфавите
-                        code = code + alf[temp];//заполняем наш шифротекст
-                    }
-                }
-                
+                    
+
+
             }
-           
-            Console.WriteLine(code);//выводим на экран
             Console.ReadKey();
 
         }
 
-        
+        static void Coding()
+        {
+            Console.WriteLine("Введите слово, которое нужно зашифровать");
+            string s = Console.ReadLine();
+            Console.WriteLine("Укажите ключ");
+            int key = Convert.ToInt32(Console.ReadLine());
+
+
+            string alf = "abcdefghijklmnopqrstuvwxyz";
+            string code = "";
+            int m = alf.Length;
+            for (int i = 0; i < s.Length; i++)
+            {
+                for (int j = 0; j < alf.Length; j++)
+                {
+                    if (s[i] == alf[j])
+                    {
+                        int temp = j + key;
+
+                        while (temp >= m)
+                            temp = temp - m;
+                        code = code + alf[temp];
+                    }
+                }
+
+            }
+
+            Console.WriteLine(code);
+        }
+        static void DeCoding()
+        {
+            Console.WriteLine("Введите слово, которое нужно дезашифровать");
+            string s = Console.ReadLine();
+            Console.WriteLine("Укажите ключ");
+            int key = Convert.ToInt32(Console.ReadLine());
+            
+            string alf = "abcdefghijklmnopqrstuvwxyz";
+            string decode = "";
+            int m = alf.Length;
+            
+            
+                for (int i = 0; i < s.Length; i++)
+                {
+
+                    for (int j = 0; j < alf.Length; j++)
+                    {
+
+                        if (alf[j] == s[i])
+                        {
+                            int temp = j - key;
+                            while (temp < 0)
+                                temp = temp + m;
+                            while (temp >= m)
+                                temp = temp - m;
+
+                            decode = decode + alf[temp];
+                        }
+
+                    }
+
+                
+                
+            }
+            Console.WriteLine("");
+            Console.WriteLine(decode);
+        }
     }
 }
