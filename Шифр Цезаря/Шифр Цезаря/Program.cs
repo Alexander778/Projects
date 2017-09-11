@@ -63,19 +63,22 @@ namespace Шифр_Цезаря
         {
             Console.WriteLine("Введите слово, которое нужно дезашифровать");
             string s = Console.ReadLine();
-            Console.WriteLine("Укажите ключ");
-            int key = Convert.ToInt32(Console.ReadLine());
-            
+
+            //Console.WriteLine("Укажите ключ");
+            //int key = Convert.ToInt32(Console.ReadLine());
+
             string alf = "abcdefghijklmnopqrstuvwxyz";
             string decode = "";
             int m = alf.Length;
-            
-            
+
+            for (int key = 0; key < 26; key++)
+            {
                 for (int i = 0; i < s.Length; i++)
                 {
-
+                
                     for (int j = 0; j < alf.Length; j++)
                     {
+                    
 
                         if (alf[j] == s[i])
                         {
@@ -84,17 +87,22 @@ namespace Шифр_Цезаря
                                 temp = temp + m;
                             while (temp >= m)
                                 temp = temp - m;
-
                             decode = decode + alf[temp];
+                            
                         }
+
 
                     }
 
-                
-                
+                    
+
+                }
+                Console.WriteLine("{0}:{1}",key,decode);
+                decode = "";
             }
-            Console.WriteLine("");
-            Console.WriteLine(decode);
+
+            
+
         }
     }
 }
