@@ -1,0 +1,5 @@
+c:\users\alexander\documents\visual studio 2015\Projects\Шифр Цезаря\Шифр Цезаря\bin\Debug\Шифр Цезаря.exe.config
+c:\users\alexander\documents\visual studio 2015\Projects\Шифр Цезаря\Шифр Цезаря\bin\Debug\Шифр Цезаря.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Шифр Цезаря\Шифр Цезаря\bin\Debug\Шифр Цезаря.pdb
+c:\users\alexander\documents\visual studio 2015\Projects\Шифр Цезаря\Шифр Цезаря\obj\Debug\Шифр Цезаря.exe
+c:\users\alexander\documents\visual studio 2015\Projects\Шифр Цезаря\Шифр Цезаря\obj\Debug\Шифр Цезаря.pdb
